@@ -1,4 +1,12 @@
 .wrapper {
+    --search-border-radius: 92px;
+    --search-height: 46px;
+    --search-top-spacer: 9px;
+    --search-btn-width: 52px;
+    --search-btn-active: #575757;
+
+    --search-icon-color: #bdbdbd;
+
     width: 100%;
     height: var(--default-layout-header-height, 60px);
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
@@ -8,4 +16,77 @@
 .inner {
     height: 100%;
     width: var(--default-layout-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.search {
+    width: 361px;
+    height: var(--search-height);
+    display: flex;
+    background-color: #f1f1f2;
+    border-radius: var(--search-border-radius);
+    padding: 0 0 0px 16px;
+    position: relative;
+    border: 1.5px solid transparent;
+
+    input {
+        flex: 1;
+        height: 100%;
+        color: var(--black);
+        font-size: 1.6rem;
+        background-color: transparent;
+        caret-color: var(--primary);
+    }
+
+    input:not(:placeholder-shown) ~ .search-btn {
+        color: var(--search-btn-active);
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: var(--search-top-spacer);
+        right: var(--search-btn-width);
+        width: 1px;
+        height: calc(var(--search-height) - var(--search-top-spacer) * 2);
+        background-color: var(--search-icon-color);
+    }
+
+    &:focus-within,
+    &:hover {
+        border-color: #c6c5c5;
+    }
+}
+
+.clear,
+.loading {
+    position: absolute;
+    right: calc(var(--search-btn-width) + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--search-icon-color);
+}
+
+.search-btn {
+    width: var(--search-btn-width);
+    height: 100%;
+    border-top-right-radius: var(--search-border-radius);
+    border-bottom-right-radius: var(--search-border-radius);
+    font-size: 2rem;
+    color: var(--search-icon-color);
+
+    &:hover {
+        background-color: #d9d9d9;
+        cursor: pointer;
+        color: var(--search-btn-active);
+    }
+
+    &:active {
+        background-color: #e9e9e9;
+    }
 }
