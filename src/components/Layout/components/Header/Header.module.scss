@@ -4,6 +4,7 @@
     --search-top-spacer: 9px;
     --search-btn-width: 52px;
     --search-btn-active: #575757;
+    --search-result-width: 361px;
 
     --search-icon-color: #bdbdbd;
 
@@ -24,8 +25,13 @@
     display: flex;
     align-items: center;
 }
+
+.search,
+.search-result {
+    width: var(--search-result-width);
+}
 .search {
-    width: 361px;
+    width: var(--search-result-width);
     height: var(--search-height);
     display: flex;
     background-color: #f1f1f2;
@@ -62,7 +68,12 @@
         border-color: #c6c5c5;
     }
 }
-
+.search-title {
+    color: #bebebe;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 12px;
+}
 .clear,
 .loading {
     position: absolute;
