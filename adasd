@@ -1,0 +1,47 @@
+[33mcommit 06cb93900ae439d613c1455ecb4a774b48cce630[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: toannguyenit <toannguyen.hcmute@gmail.com>
+Date:   Mon Oct 2 22:51:38 2023 +0700
+
+    Build Header UI #2
+
+[33mcommit 13d0a9a30f4c587caac1df53eecfd404f92bc548[m
+Author: toannguyenit <toannguyen.hcmute@gmail.com>
+Date:   Mon Oct 2 19:15:49 2023 +0700
+
+    Build Header UI #1
+
+[33mcommit 298439f080f7bf7ecdda29ffaaba3aa11741f8f8[m
+Author: toannguyenit <toannguyen.hcmute@gmail.com>
+Date:   Mon Oct 2 17:12:20 2023 +0700
+
+    Dung khung DefaultLayout
+
+[33mcommit 6415d3432d155b3d14d11721d76e23d8505a5209[m
+Author: toannguyenit <toannguyen.hcmute@gmail.com>
+Date:   Mon Oct 2 15:31:29 2023 +0700
+
+    Install Router and Layout
+
+[33mcommit 7ebfdef4c5a67977a901edf0d6f9c3b6dcfe9d70[m
+Author: toannguyenit <toannguyen.hcmute@gmail.com>
+Date:   Mon Oct 2 14:10:31 2023 +0700
+
+    Install SCSS for project
+
+[33mcommit 465b865793de7121e63d15cf904ceb68aeff6065[m
+Author: toannguyenit <toannguyen.hcmute@gmail.com>
+Date:   Mon Oct 2 13:50:52 2023 +0700
+
+    Cài đặt và cấu hình Prettier trên VS Code
+
+[33mcommit 332526cb0a631c599365b7c96b7a312a216ea0b8[m
+Author: toannguyenit <toannguyen.hcmute@gmail.com>
+Date:   Mon Oct 2 13:24:40 2023 +0700
+
+    Cài đặt babel plugin module resolver
+
+[33mcommit 2b77bf0a62445447fc02d6970e14413a19667792[m
+Author: songtoan <toannguyen.hcmute@gmail.com>
+Date:   Sun Oct 1 11:29:15 2023 +0700
+
+    first commit
